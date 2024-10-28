@@ -3,115 +3,168 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="TriWaterWorks - Game Development Studio"
-    />
-    <title>TriWaterWorks - Game Development Studio</title>
+    <title>TriWaterWorks - Innovative Game Development Studio</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="scripts.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <nav>
-        <div class="logo">
-          <h1>TriWaterWorks</h1>
-        </div>
-        <ul class="nav-links">
+      <nav class="container">
+        <div class="logo">TriWaterWorks</div>
+        <button id="menu-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul id="nav-menu">
           <li><a href="#home">Home</a></li>
           <li><a href="#about-studio">Studio</a></li>
           <li><a href="#team">Our Team</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
-    <!-- Hero Section -->
     <section id="home" class="hero-section">
       <div class="hero-content">
-        <h2>Welcome to TriWaterWorks</h2>
-        <p>Innovative Games. Immersive Experiences.</p>
-        <a href="#about-studio" class="cta">Learn More</a>
+        <h1>Welcome to TriWaterWorks</h1>
+        <p>Innovating the Future of Gaming</p>
+        <a href="#about-studio" class="cta">Discover Our Vision</a>
       </div>
     </section>
 
-    <!-- Intro to Studio Section -->
     <section id="about-studio" class="about-studio">
-      <h2>About TriWaterWorks</h2>
-      <p>
-        TriWaterWorks is a dynamic game development studio, committed to
-        delivering immersive and innovative gaming experiences. With a team of
-        skilled developers, we bring creativity, passion, and cutting-edge
-        technology together to craft games that stand out.
-      </p>
-    </section>
+      <div class="container">
+        <h2>About TriWaterWorks</h2>
+        <p>
+          At TriWaterWorks, we specialize in 2.5D game development, blending the charm of simplistic 2D art with the depth of 3D environments. Our approach produces clean, minimalistic visuals that are easy to understand yet rich in detail, creating a seamless blend of simplicity and realism. By focusing on thoughtful design and well-crafted aesthetics, we transform basic shapes and textures into immersive worlds. This allows us to create visually compelling games that are accessible while maintaining a unique, artistic appeal that draws players in.
+        </p>
+ 
 
-    <!-- Intro to Team Section -->
     <section id="team" class="team-section">
-      <h2>Meet the Team</h2>
-      <div class="team-container">
-        <div class="team-member">
-          <img src="mem1.JPG" alt="Member 1" />
-          <h3>Noel S Kocheekkaran</h3>
-          <p>Co-Founder</p>
-          <p>
-            His expertise in game development and coding ensures that our games
-            run smoothly and look fantastic.
-          </p>
-        </div>
-        <div class="team-member">
-          <img src="mem3.jpg" alt="Member 2" />
-          <h3>Sree Hari</h3>
-          <p>Co-Founder</p>
-          <p>
-            Hari brings the artistic vision to life, creating stunning game
-            worlds and characters that captivate players and enrich gameplay
-            experiences.
-          </p>
-        </div>
-        <div class="team-member">
-          <img src="mem2.jpg" alt="Member 3" />
-          <h3>Sooraj Murugaraj</h3>
-          <p>Co-Founder</p>
-          <p>
-            Sooraj is the design genius, crafting engaging and fun gameplay
-            mechanics that make TriWaterWorks games addictive and enjoyable.
-          </p>
+      <div class="container">
+        <h2>Meet Our Team</h2>
+        <div class="team-container">
+          <div class="team-member">
+            <div class="member-image">
+              <img src="mem1.JPG" alt="Noel S Kocheekkaran" />
+            </div>
+            <h3>Noel S Kocheekkaran</h3>
+            <p class="role">Lead Developer</p>
+            <p>
+              Noel brings extensive expertise in game development and coding,
+              ensuring our projects are built on a solid technical foundation.
+            </p>
+          </div>
+          <div class="team-member">
+            <div class="member-image">
+              <img src="mem3.jpg" alt="Sree Hari" />
+            </div>
+            <h3>Sree Hari</h3>
+            <p class="role">Art Director</p>
+            <p>
+              Hari's artistic vision brings our game worlds to life, creating
+              captivating visuals that enhance the player experience.
+            </p>
+          </div>
+          <div class="team-member">
+            <div class="member-image">
+              <img src="mem2.jpg" alt="Sooraj Murugaraj" />
+            </div>
+            <h3>Sooraj Murugaraj</h3>
+            <p class="role">Game Designer</p>
+            <p>
+              Sooraj's innovative approach to game design ensures our projects
+              feature engaging and memorable gameplay mechanics.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Services Section -->
-
-    <!-- Contact Section -->
     <section id="contact" class="contact-section">
-      <h2>Contact Us</h2>
-      <div class="contact-info">
-        <p>
-          Email us at:
-          <a href="mailto:triwaterworks@gmail.com">triwaterworks@gmail.com</a>
-        </p>
-        <p>
-          Connect with us on LinkedIn:
-          <a
-            href="https://www.linkedin.com/in/triwater-works-5b1b58324/"
-            target="_blank"
-            >TriWaterWorks LinkedIn</a
-          >
-        </p>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+          <p>
+            For business inquiries or to learn more about our upcoming projects,
+            please reach out:
+          </p>
+          <p>
+            Email:
+            <a href="mailto:triwaterworks@gmail.com">triwaterworks@gmail.com</a>
+          </p>
+          <p>
+            LinkedIn:
+            <a
+              href="https://www.linkedin.com/in/triwater-works-5b1b58324/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >TriWaterWorks</a
+            >
+          </p>
+        </div>
       </div>
     </section>
 
-    <!-- Footer -->
     <footer>
       <div class="footer-content">
         <p>&copy; 2024 TriWaterWorks. All rights reserved.</p>
         <div class="social-links">
-          <a href="https://x.com/triwaterwork">Twitter</a>
-          <a href="https://www.linkedin.com/in/triwater-works-5b1b58324/"
-            >LinkedIn</a
+          <a
+            href="https://x.com/triwaterwork"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Twitter"
           >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+              ></path>
+            </svg>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/triwater-works-5b1b58324/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              ></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
         </div>
       </div>
     </footer>
+    
+    <script src="script.js"></script>
   </body>
 </html>
